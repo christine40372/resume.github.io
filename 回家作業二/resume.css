@@ -1,0 +1,632 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #77ABBD;
+}
+header{
+    background-color: rgb(236, 232, 223);
+}
+.myself{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    left: -490px;
+}
+.picture4{
+    width: 300px;
+    border-radius: 50%;
+    border: 10px dashed rgba(173,202,210,1.00);
+}
+.mylogo{
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 330px;
+}
+.mylogo2{
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 430px;
+}
+.mylogo3{
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 530px;
+}
+.circle_process{
+    position: absolute;
+    left: 860px;
+    bottom: 600px;
+    width: 199px;
+    height : 200px;
+    margin: 0;
+}
+.circle_process .wrapper{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.circle_process .right{
+    right:0;
+}
+.circle_process .left{
+    left:0;
+}
+.circle_process .circle{
+    width: 160px;
+    height: 160px;
+    border:20px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform : rotate(-135deg);
+}
+.circle_process .rightcircle{
+    border-top:20px solid rgb(104,146,168);
+    border-right:20px solid rgb(104,146,168);
+    right:0;
+    -webkit-animation: circle_right 5s linear both;
+}
+.circle_process .leftcircle{
+    border-bottom:20px solid rgb(104,146,168);
+    border-left:20px solid rgb(104,146,168);
+    left:0;
+    -webkit-animation: circle_left 5s linear both;
+}
+@-webkit-keyframes circle_right{
+    0%{
+        -webkit-transform: rotate(-135deg);
+    }
+    50%,100%{
+        -webkit-transform: rotate(45deg);
+    }
+}
+@-webkit-keyframes circle_left{
+    0%,50%{
+        -webkit-transform: rotate(-135deg);
+    }
+    100%{
+        -webkit-transform: rotate(-40deg);
+    }
+}
+.circletxt{
+    font-size: 30px;
+    position: absolute;
+    left: 40px;
+    top:40px ;
+}
+.circle_process2{
+    position: absolute;
+    left: 860px;
+    bottom: 370px;
+    width: 199px;
+    height : 200px;
+}
+.circle_process2 .wrapper{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.circle_process2 .right2{
+    right:0;
+}
+.circle_process2 .left2{
+    left:0;
+}
+.circle_process2 .circle{
+    width: 160px;
+    height: 160px;
+    border:20px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform : rotate(-135deg);
+}
+.circle_process2 .rightcircle2{
+    border-top:20px solid rgb(104,146,168);
+    border-right:20px solid rgb(104,146,168);
+    right:0;
+    -webkit-animation: circle_right2 5s linear both;
+}
+.circle_process2 .leftcircle2{
+    border-bottom:20px solid rgb(104,146,168);
+    border-left:20px solid rgb(104,146,168);
+    left:0;
+    -webkit-animation: circle_left2 5s linear both;
+}
+@-webkit-keyframes circle_right2{
+    0%{
+        -webkit-transform: rotate(-135deg);
+    }
+    50%,100%{
+        -webkit-transform: rotate(45deg);
+    }
+}
+@-webkit-keyframes circle_left2{
+    0%,50%{
+        -webkit-transform: rotate(-135deg);
+    }
+    100%{
+        -webkit-transform: rotate(-100deg);
+    }
+}
+
+.circle_process3{
+    position: absolute;
+    left: 1250px;
+    bottom: 600px;
+    width: 199px;
+    height : 200px;
+}
+.circle_process3 .wrapper{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.circle_process3 .right3{
+    right:0;
+}
+.circle_process3 .left3{
+    left:0;
+}
+.circle_process3 .circle{
+    width: 160px;
+    height: 160px;
+    border:20px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform : rotate(-135deg);
+}
+.circle_process3 .rightcircle3{
+    border-top:20px solid rgb(104,146,168);
+    border-right:20px solid rgb(104,146,168);
+    right:0;
+    -webkit-animation: circle_right3 5s linear both;
+}
+.circle_process3 .leftcircle3{
+    border-bottom:20px solid rgb(104,146,168);
+    border-left:20px solid rgb(104,146,168);
+    left:0;
+    -webkit-animation: circle_left3 5s linear both;
+}
+@-webkit-keyframes circle_right3{
+    0%{
+        -webkit-transform: rotate(-135deg);
+    }
+    50%,100%{
+        -webkit-transform: rotate(45deg);
+    }
+}
+@-webkit-keyframes circle_left3{
+    0%,50%{
+        -webkit-transform: rotate(-135deg);
+    }
+    100%{
+        -webkit-transform: rotate(-60deg);
+    }
+}
+.circletxt3{
+    font-size: 35px;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+
+.circle_process4{
+    position: absolute;
+    left: 1250px;
+    bottom: 370px;
+    width: 199px;
+    height : 200px;
+}
+.circle_process4 .wrapper{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.circle_process4 .right4{
+    right:0;
+}
+.circle_process4 .left4{
+    left:0;
+}
+.circle_process4 .circle{
+    width: 160px;
+    height: 160px;
+    border:20px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform : rotate(-135deg);
+}
+.circle_process4 .rightcircle4{
+    border-top:20px solid rgb(104,146,168);
+    border-right:20px solid rgb(104,146,168);
+    right:0;
+    -webkit-animation: circle_right4 5s linear both;
+}
+.circle_process4 .leftcircle4{
+    border-bottom:20px solid rgb(104,146,168);
+    border-left:20px solid rgb(104,146,168);
+    left:0;
+    -webkit-animation: circle_left4 5s linear both;
+}
+@-webkit-keyframes circle_right4{
+    0%{
+        -webkit-transform: rotate(-135deg);
+    }
+    50%,100%{
+        -webkit-transform: rotate(45deg);
+    }
+}
+@-webkit-keyframes circle_left4{
+    0%,50%{
+        -webkit-transform: rotate(-135deg);
+    }
+    100%{
+        -webkit-transform: rotate(-30deg);
+    }
+}
+
+.circle_process5{
+    position: absolute;
+    left: 1550px;
+    bottom: 600px;
+    width: 199px;
+    height : 200px;
+}
+.circle_process5 .wrapper{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.circle_process5 .right5{
+    right:0;
+}
+.circle_process5 .left5{
+    left:0;
+}
+.circle_process5 .circle{
+    width: 160px;
+    height: 160px;
+    border:20px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform : rotate(-135deg);
+}
+.circle_process5 .rightcircle5{
+    border-top:20px solid rgb(104,146,168);
+    border-right:20px solid rgb(104,146,168);
+    right:0;
+    -webkit-animation: circle_right5 5s linear both;
+}
+.circle_process5 .leftcircle5{
+    border-bottom:20px solid rgb(104,146,168);
+    border-left:20px solid rgb(104,146,168);
+    left:0;
+    -webkit-animation: circle_left5 5s linear both;
+}
+@-webkit-keyframes circle_right5{
+    0%{
+        -webkit-transform: rotate(-135deg);
+    }
+    50%,100%{
+        -webkit-transform: rotate(45deg);
+    }
+}
+@-webkit-keyframes circle_left5{
+    0%,50%{
+        -webkit-transform: rotate(-135deg);
+    }
+    100%{
+        -webkit-transform: rotate(-100deg);
+    }
+}
+
+.circle_process6{
+    position: absolute;
+    left: 1550px;
+    bottom: 370px;
+    width: 199px;
+    height : 200px;
+}
+.circle_process6 .wrapper{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.circle_process6 .right6{
+    right:0;
+}
+.circle_process6 .left6{
+    left:0;
+}
+.circle_process6 .circle{
+    width: 160px;
+    height: 160px;
+    border:20px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform : rotate(-135deg);
+}
+.circle_process6 .rightcircle6{
+    border-top:20px solid rgb(104,146,168);
+    border-right:20px solid rgb(104,146,168);
+    right:0;
+    -webkit-animation: circle_right6 5s linear both;
+}
+.circle_process6 .leftcircle6{
+    border-bottom:20px solid rgb(104,146,168);
+    border-left:20px solid rgb(104,146,168);
+    left:0;
+    -webkit-animation: circle_left6 5s linear both;
+}
+@-webkit-keyframes circle_right6{
+    0%{
+        -webkit-transform: rotate(-135deg);
+    }
+    50%,100%{
+        -webkit-transform: rotate(45deg);
+    }
+}
+@-webkit-keyframes circle_left6{
+    0%,50%{
+        -webkit-transform: rotate(-135deg);
+    }
+    100%{
+        -webkit-transform: rotate(-80deg);
+    }
+}
+.circletxt6{
+    font-size: 23px;
+    position: absolute;
+    left: 40px;
+    top: 60px;
+}
+
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid rgb(104,146,168);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  article *{
+    box-sizing: border-box;
+    
+  }
+  article{
+    background-color: rgb(173, 202, 210);
+
+  }
+  /* Place the container to the left */
+  .Left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .Right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .Left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid rgb(227,230, 235);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .Right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid rgb(227,230, 235);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(227,230, 235) transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .Right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: rgb(236,232, 223);
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+    left: 31px;
+    }
+    
+    /* Full-width containers */
+    .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+  }
+.picture{
+    width: 450px;
+    border: none;
+    box-shadow: 0px 1px 15px rgba(86, 51, 46, 0.6);
+    position: relative;
+}
+.logo{
+    width: 70px;
+    border-radius: 50%;
+}
+.picture2{
+    width: 450px;
+    border: none;
+    box-shadow: 0px 1px 15px rgba(86, 51, 46, 0.6);
+    position: relative;    
+}
+.leftlogo{
+    width: 70px;
+    border-radius: 50%;
+}
+.picture3{
+    width: 450px;
+    border: none;
+    box-shadow: 0px 1px 15px rgba(86, 51, 46, 0.6);
+    position: relative;
+}
+.logor{
+    width: 70px;
+    border-radius: 50%;
+}
+
+nav{
+    background-color:rgb(172, 163, 158) ;
+    text-align: center;
+}    
+.main {
+    
+    max-width: 1000px;
+    margin:auto;
+    
+}
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 30%;
+    margin: 2px;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .work_content {
+    background-color: rgb(173, 202, 210);
+    padding: 10px;
+  }
+  .work_content2{
+    background-color: rgb(236, 232, 223);
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
